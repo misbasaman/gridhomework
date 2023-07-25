@@ -32,13 +32,15 @@
   
   .myWork {
     text-align: center; /* Center the content within the section */
+    
   }
   
  .workGrid  {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
+    justify-content:space-between;
+    gap: 70px;
   } 
   
   /*
@@ -72,7 +74,7 @@
     height: 50%; /* Set a fixed height for the divs */
     background-color: antiquewhite;
     padding: 20px;
-    margin-bottom: 50px; /* Add some space between each div */
+    margin-bottom: 250px; /* Add some space between each div */
     margin: 0 auto;
    
 }
@@ -99,7 +101,18 @@ body {
 
   h3{
     text-decoration: underline;
+    
   }
+
+  .view {
+    /*background-color: brown;*/
+    height: 50px;
+    width: 200px;
+    display: inline-block;
+    margin-top: 40px;
+  }
+
+  
 
 
   
